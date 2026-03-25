@@ -1,0 +1,29 @@
+Package: AntBoost
+Title: Demonstrating the Isomorphism Between Boosting and Ant Colony Recruitment
+Version: 0.1.0
+Authors@R: c(
+    person("Ernest", "Fokoué", email = "epfeqa@rit.edu", role = c("aut", "cre")),
+    person("Gregory", "Babbitt", email = "gabsbi@rit.edu", role = "aut"),
+    person("Yuval", "Levental", email = "yhl3051@rit.edu", role = "aut")
+    )
+Description: Implements both AdaBoost and Ant Colony Adaptive Recruitment (ACAR),
+    demonstrating their mathematical isomorphism as established in "Isomorphic 
+    Functionalities between Ant Colony and Ensemble Learning: Part II". Provides
+    simulation tools, visualization functions, and an interactive Shiny app for
+    exploring the boosting–ant colony correspondence.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    ggplot2,
+    patchwork,
+    dplyr,
+    tidyr,
+    cowplot
+Suggests:
+    shiny,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr

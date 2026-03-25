@@ -1,0 +1,28 @@
+export(adaboost)
+export(predict_adaboost)
+export(find_best_stump)
+export(predict_stump)
+export(track_weights)
+export(acar)
+export(generate_data)
+export(calculate_margins)
+export(calculate_quorum_margin)
+export(weak_learnability_experiment)
+export(convergence_experiment)
+export(noise_experiment)
+export(plot_weak_learnability)
+export(plot_weight_pheromone)
+export(plot_margin_quorum)
+export(plot_convergence)
+export(plot_noise_robustness)
+export(generate_all_figures)
+
+importFrom(ggplot2, ggplot, aes, geom_line, geom_ribbon, geom_histogram,
+           geom_col, geom_vline, geom_point, geom_hline, geom_smooth,
+           stat_summary, scale_x_log10, scale_color_manual, scale_fill_manual,
+           labs, theme_minimal, theme, element_text, element_blank,
+           annotate, ggsave, facet_wrap)
+importFrom(patchwork, plot_annotation)
+importFrom(dplyr, group_by, summarise, mutate, filter, n, "%>%")
+importFrom(tidyr, pivot_longer)
+importFrom(stats, rnorm, rmultinom, median, sd, quantile)
